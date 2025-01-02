@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="07477d3aff4e4745870bf8a1b81a707e" Name="Diagram1" ZoomLevel="15">
+        <EntityTypeShape EntityType="ICTV3Model.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.Action" Width="1.5" PointX="3" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.ActionsDropdown" Width="1.5" PointX="0.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.ActionTaken" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.AspNetRole" Width="1.5" PointX="3" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.AspNetUserClaim" Width="1.5" PointX="7.5" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.AspNetUserLogin" Width="1.5" PointX="7.5" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.AspNetUser" Width="1.5" PointX="5.25" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.Brand" Width="1.5" PointX="8.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.ChangeLog" Width="1.5" PointX="7.5" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.ComparisonReport" Width="1.5" PointX="7.5" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.ComparisonReportSpec" Width="1.5" PointX="9.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.ComparisonReportSpecsDetail" Width="1.5" PointX="12" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.CustomerActionSheet" Width="1.5" PointX="7.5" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.Delivery" Width="1.5" PointX="15" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.DeliveriesSpec" Width="1.5" PointX="20.25" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.DeliveriesSpecsDetail" Width="1.5" PointX="22.5" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.Equipment" Width="1.5" PointX="3.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.EquipmentSpec" Width="1.5" PointX="6" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.EquipmentSpecsDetail" Width="1.5" PointX="8.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.ITStaff" Width="1.5" PointX="7.5" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.MOAccount" Width="1.5" PointX="10.5" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.MOAccountUser" Width="1.5" PointX="12.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.Model" Width="1.5" PointX="10.5" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PGNAccount" Width="1.5" PointX="9.75" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PGNDocument" Width="1.5" PointX="9.75" PointY="50.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PGNGroupOffice" Width="1.5" PointX="8.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PGNMacAddress" Width="1.5" PointX="12" PointY="45.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PGNNonEmployee" Width="1.5" PointX="7.5" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PGNRequest" Width="1.5" PointX="7.5" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PPE" Width="1.5" PointX="10.5" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PPEsSpec" Width="1.5" PointX="12.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PPEsSpecsDetail" Width="1.5" PointX="15" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PRStandardPRSpec" Width="1.5" PointX="22.5" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.PurchaseRequest" Width="1.5" PointX="20.25" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.Repair" Width="1.5" PointX="15" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.RoleDesignation" Width="1.5" PointX="5.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.StandardPRSpec" Width="1.5" PointX="20.25" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.StandardPRSpecsDetail" Width="1.5" PointX="22.5" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.Supplier" Width="1.5" PointX="12.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.TechSpec" Width="1.5" PointX="18" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.TechSpecsBasi" Width="1.5" PointX="8.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.TechSpecsICTSpec" Width="1.5" PointX="23.25" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.TechSpecsICTSpecsDetail" Width="1.5" PointX="25.5" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.TicketRequest" Width="1.5" PointX="9.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICTV3Model.TicketRequestStatu" Width="1.5" PointX="12" PointY="33.375" IsExpanded="true" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_ActionsDropdowns_ActionsDropdowns_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_ActionsDropdowns_ActionsDropdowns_Id1" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_ActionsDropdowns_ActionsDropdowns_Id2" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_ActionsDropdowns_ActionsDropdowns_Id3" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_ActionsDropdowns_ActivityId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_ActionsDropdowns_MainActId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_ActionsDropdowns_ProgramId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_ActionsDropdowns_SubActivityId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_AspNetUsers_CreatedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_CustomerActionSheets_CustomerActionSheetId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_Deliveries_DeliveriesId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_MOAccountUsers_MOAccountUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_PGNRequests_PGNRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_PurchaseRequests_PurchaseRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_Repairs_RepairId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Actions_dbo_TechSpecs_TechSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_RoleDesignations_dbo_AspNetRoles_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ChangeLogs_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReports_dbo_AspNetUsers_NotedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReports_dbo_AspNetUsers_PreparedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReports_dbo_AspNetUsers_ReviewedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReports_dbo_AspNetUsers_Users_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReports_dbo_AspNetUsers_Users_Id1" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReports_dbo_AspNetUsers_Users_Id2" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_CustomerActionSheets_dbo_AspNetUsers_AssistedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ITStaffs_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_MOAccounts_dbo_AspNetUsers_CreatedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_MOAccountUsers_dbo_AspNetUsers_CreatedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PGNRequests_dbo_AspNetUsers_CreatedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PurchaseRequests_dbo_AspNetUsers_CreatedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_AspNetUsers_NotedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_AspNetUsers_PreparedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_AspNetUsers_ReviewedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_AspNetUsers_Users_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_AspNetUsers_Users_Id1" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_AspNetUsers_Users_Id2" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecs_dbo_AspNetUsers_NotedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecs_dbo_AspNetUsers_PreparedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecs_dbo_AspNetUsers_ReviewedById" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecs_dbo_AspNetUsers_Users_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecs_dbo_AspNetUsers_Users_Id1" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecs_dbo_AspNetUsers_Users_Id2" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TicketRequests_dbo_AspNetUsers_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TicketRequestStatus_dbo_AspNetUsers_ChangedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Brands_dbo_EquipmentSpecs_EquipmenSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Models_dbo_Brands_BrandId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReports_dbo_Deliveries_DeliveryId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReportSpecs_dbo_ComparisonReports_ComparisonReportId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_ComparisonReportSpecsDetails_dbo_ComparisonReportSpecs_ComparisonReportSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Deliveries_dbo_Suppliers_SupplierId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Deliveries_dbo_TicketRequests_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_DeliveriesSpecs_dbo_Deliveries_DeliveriesId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_DeliveriesSpecs_dbo_Models_ModelId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_DeliveriesSpecsDetails_dbo_DeliveriesSpecs_DeliveriesSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_EquipmentSpecs_dbo_Equipments_EquipmentId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_EquipmentSpecsDetails_dbo_EquipmentSpecs_EquipmentSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_StandardPRSpecs_dbo_EquipmentSpecs_EquipmentSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecsBasis_dbo_EquipmentSpecs_EquipmentSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecsICTSpecs_dbo_EquipmentSpecs_EquipmentSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TicketRequests_dbo_ITStaffs_StaffId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_MOAccounts_dbo_PGNGroupOffices_OfficeId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_MOAccountUsers_dbo_MOAccounts_MOAccountId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_MOAccountUsers_dbo_PPEs_PPEId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PPEsSpecs_dbo_Models_ModelId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PGNAccounts_dbo_PGNGroupOffices_PGNGroupOfficesId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PGNAccounts_dbo_PGNNonEmployees_PGNNonEmployeeId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PGNAccounts_dbo_PGNRequests_PGNRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PGNMacAddresses_dbo_PGNAccounts_PGNAccountId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PGNDocuments_dbo_PGNRequests_PGNRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PPEsSpecs_dbo_PPEs_PPEsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_PPEs_PPEsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PPEsSpecsDetails_dbo_PPEsSpecs_PPEsSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_PPEsSpecs_PPESpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PRStandardPRSpecs_dbo_PurchaseRequests_PurchaseRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PRStandardPRSpecs_dbo_StandardPRSpecs_StandardPRSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_PurchaseRequests_dbo_TechSpecs_TechSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_TechSpecs_TechSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_Repairs_dbo_TicketRequests_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_StandardPRSpecsDetails_dbo_StandardPRSpecs_StandardPRSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecs_dbo_TicketRequests_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecsICTSpecs_dbo_TechSpecs_TechSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TechSpecsICTSpecsDetails_dbo_TechSpecsICTSpecs_TechSpecsICTSpecsId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.FK_dbo_TicketRequestStatus_dbo_TicketRequests_TicketRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="ICTV3Model.UsersActions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

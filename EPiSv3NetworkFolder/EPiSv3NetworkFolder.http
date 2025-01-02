@@ -1,0 +1,6 @@
+@EPiSv3NetworkFolder_HostAddress = http://localhost:5288
+
+GET {{EPiSv3NetworkFolder_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
