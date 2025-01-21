@@ -11,11 +11,17 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<NetworkFolderService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-    
-builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDbContext<HRMISContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("HRMISConnection")));
+
+builder.Services.AddDbContext<OFMISContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("OFMISConnection")));
+
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddAuthentication(options =>
 {

@@ -24,7 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DbModels\" />
+    <Folder Include="DbModels\HRMIS\" />
+    <Folder Include="DbModels\OFMIS\" />
   </ItemGroup>
 
 </Project>

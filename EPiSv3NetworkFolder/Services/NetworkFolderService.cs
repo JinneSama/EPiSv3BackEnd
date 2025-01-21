@@ -7,7 +7,7 @@ namespace EPiSv3NetworkFolder.Services
     public class NetworkFolderService
     {
         private const string NetworkPath = @"\\172.17.16.244\ICTv2_Repositories\ICTv3Documents";
-        //private const string NetworkPath = @"\\172.17.32.1\myfiles";
+        //private const string NetworkPath = @"\\172.22.96.1\myfiles";
         private const string Username = "pitd.jsilao";
         private const string Password = "WcZLRX";
 
